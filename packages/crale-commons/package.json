@@ -1,0 +1,24 @@
+{
+  "name": "crale-commons",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Common code used throughout the app",
+  "main": "index.js",
+  "author": "Felix Ganz <felix.ganz.94@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "echo Commons OK",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --fix"
+  },
+  "dependencies": {
+    "eslint-config-react-app": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0"
+  }
+}

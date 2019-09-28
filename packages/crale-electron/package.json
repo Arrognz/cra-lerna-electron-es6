@@ -1,0 +1,37 @@
+{
+  "name": "crale-electron",
+  "version": "0.1.0",
+  "description": "Minimal starter kit: Create-React-App + Lerna + Electron + ES6 starter kit",
+  "author": "Felix Ganz <felix.ganz.94@gmail.com>",
+  "homepage": "https://github.com/amaurymartiny/cra-lerna-electron",
+  "private": true,
+  "scripts": {
+    "prebuild": "copyfiles -u 2 \"../crale-desktop/build/**/*\" static/",
+    "build": "electron-webpack",
+    "electron": "electron dist/main/main.js",
+    "package": "electron-builder",
+    "start": "electron-webpack dev",
+    "test": "echo Skipped.",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --fix"
+  },
+  "dependencies": {
+    "eslint-config-react-app": "^5.0.2",
+    "source-map-support": "^0.5.11"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "crale-desktop": "^0.1.0",
+    "electron": "^5.0.0",
+    "electron-builder": "^20.28.4",
+    "electron-webpack": "^2.7.4",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "webpack": "^4.39.2"
+  },
+  "resolutions": {
+    "webpack-sources": "^1.1.0"
+  }
+}

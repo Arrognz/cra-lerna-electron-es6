@@ -1,0 +1,59 @@
+{
+  "name": "crale-components",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "main:src": "src/index.js",
+  "scripts": {
+    "start": "echo Components OK",
+    "test": "react-scripts test",
+    "lint": "eslint ./src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --fix"
+  },
+  "dependencies": {
+    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
+    "@storybook/react": "^5.2.0-alpha.35",
+    "crale-commons": "^1.0.0",
+    "cross-env": "5.0.5",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint-config-react-app": "^5.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/setupTests.{js,jsx}",
+      "!src/serviceWorker.{js,jsx}",
+      "!src/**/*.(spec|test|stories).{js,jsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 98,
+        "branches": 98,
+        "functions": 98,
+        "lines": 98
+      }
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

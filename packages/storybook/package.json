@@ -1,0 +1,31 @@
+{
+  "name": "crale-storybook",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
+    "babel-loader": "^8.0.5",
+    "crale-components": "1.0.0",
+    "cross-env": "5.0.5",
+    "eslint-config-react-app": "^5.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.3"
+  },
+  "scripts": {
+    "start": "echo Storybook OK",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "lint": "echo Storybook does not require lint.",
+    "lint-fix": "echo Storybook does not require lint."
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.0-alpha.35",
+    "@storybook/addon-knobs": "^5.2.1",
+    "@storybook/addon-links": "^5.2.0-alpha.35",
+    "@storybook/addons": "^5.2.0-alpha.35",
+    "@storybook/react": "^5.2.0-alpha.35",
+    "@storybook/theming": "^5.2.0-alpha.35",
+    "eslint-plugin-jest": "^22.17.0"
+  }
+}

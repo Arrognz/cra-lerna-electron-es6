@@ -1,0 +1,36 @@
+{
+  "name": "cra-lerna-electron",
+  "version": "0.1.0",
+  "description": "Minimal starter kit: Create-React-App + Lerna + Electron starter kit",
+  "author": "Amaury Martiny <amaury.martiny@protonmail.com>",
+  "homepage": "https://github.com/amaurymartiny/cra-lerna-electron",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/electron-builder",
+      "**/electron-builder/**",
+      "**/electron-webpack",
+      "**/electron-webpack/**"
+    ]
+  },
+  "engines": {
+    "yarn": "^1.4.2"
+  },
+  "scripts": {
+    "build": "lerna run build --stream",
+    "preelectron": "yarn build",
+    "electron": "lerna run electron --scope crale-electron",
+    "lint": "lerna exec yarn lint --parallel",
+    "lint-fix": "lerna run lint-fix --parallel",
+    "prepackage": "yarn build",
+    "package": "lerna run package --scope crale-electron --stream",
+    "start": "lerna exec --parallel --stream yarn start",
+    "test": "lerna run test --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}

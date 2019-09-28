@@ -1,0 +1,27 @@
+{
+  "name": "crale-server",
+  "version": "1.0.0",
+  "description": "A sample express server using es6 modules",
+  "main": "src/index.js",
+  "author": "Felix Ganz (ganzf)",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules src/index.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --fix",
+    "test": "echo TODO: Implement Tests"
+  },
+  "dependencies": {
+    "crale-commons": "^1.0.0",
+    "eslint-config-react-app": "^5.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0"
+  }
+}
