@@ -8,6 +8,7 @@
   "scripts": {
     "prebuild": "copyfiles -u 2 \"../crale-desktop/build/**/*\" static/",
     "build": "electron-webpack",
+    "clean": "rimraf dist && rimraf static/build",
     "electron": "electron dist/main/main.js",
     "package": "electron-builder",
     "start": "electron-webpack dev",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "eslint-config-react-app": "^5.0.2",
+    "rimraf": "^3.0.0",
     "source-map-support": "^0.5.11"
   },
   "devDependencies": {

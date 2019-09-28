@@ -28,7 +28,8 @@
     "prepackage": "yarn build",
     "package": "lerna run package --scope crale-electron --stream",
     "start": "lerna exec --parallel --stream yarn start",
-    "test": "lerna run test --parallel"
+    "test": "lerna run test --parallel",
+    "clean": "lerna run clean --parallel"
   },
   "devDependencies": {
     "lerna": "^3.16.4"

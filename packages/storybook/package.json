@@ -10,7 +10,8 @@
     "cross-env": "5.0.5",
     "eslint-config-react-app": "^5.0.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.3"
+    "react-dom": "^16.7.3",
+    "rimraf": "^3.0.0"
   },
   "scripts": {
     "start": "echo Storybook OK",

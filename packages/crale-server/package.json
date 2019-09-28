@@ -16,7 +16,8 @@
   "dependencies": {
     "crale-commons": "^1.0.0",
     "eslint-config-react-app": "^5.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "rimraf": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
