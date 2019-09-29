@@ -23,6 +23,7 @@
     "build": "lerna run build --stream",
     "preelectron": "yarn build",
     "electron": "lerna run electron --scope crale-electron",
+    "storybook": "lerna run storybook --scope crale-storybook",
     "lint": "lerna exec yarn lint --parallel",
     "lint-fix": "lerna run lint-fix --parallel",
     "prepackage": "yarn build",

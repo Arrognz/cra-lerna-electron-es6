@@ -14,7 +14,7 @@
     "rimraf": "^3.0.0"
   },
   "scripts": {
-    "start": "echo Storybook OK",
+    "start": "start-storybook -p 9009",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
     "lint": "echo Storybook does not require lint.",

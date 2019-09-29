@@ -4,6 +4,7 @@ import './User.css';
 class User extends React.PureComponent {
   render() {
     const { user } = this.props;
+    const s = { ...user };
     if (this.props.skeleton) {
       return (
         <div className="skeleton" style={{ width: '300px', height: '40px' }} />

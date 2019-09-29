@@ -7,7 +7,7 @@ addParameters({
   }
 });
 
-const comps = require.context('crale-components/src', true, /.stories.js$/);
+const comps = require.context('crale-components/src', true, /.stories.jsx$/);
 
 configure(() => {
   comps.keys().forEach(filename => comps(filename));

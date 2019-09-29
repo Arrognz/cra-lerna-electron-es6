@@ -55,13 +55,14 @@ All these commands should be run from the project root.
 | Command         | Description                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------------- |
 | `yarn start`    | Run Electron and React in dev mode, with live reload on file changes. Allows fast iterations. |
-| `yarn build`    | Build Electron and React apps.                                                                     |
-| `yarn clean`    | Clean your build and dist directories.                                                                     |
+| `yarn build`    | Build Electron and React apps.                                                                |
+| `yarn clean`    | Clean your build and dist directories.                                                        |
 | `yarn electron` | Build Electron and React, and open Electron with these built files.                           |
 | `yarn package`  | Build Electron and React, and generate binaries with these built files.                       |
 | `yarn lint`     | Check for linting issues in the code.                                                         |
 | `yarn lint-fix` | Auto fix some linter errors.                                                                  |
 | `yarn test`     | Run tests.                                                                                    |
+| `yarn storybook`| Open the storybook component showcase.                                                        |
 
 For the exhaustive list of available commands, check `package.json`.
 
