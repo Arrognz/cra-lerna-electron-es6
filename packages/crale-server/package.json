@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A sample express server using es6 modules",
   "main": "src/index.js",
-  "author": "Felix Ganz (ganzf)",
+  "author": "Felix Ganz <felix.ganz.94@gmail.com>",
   "license": "MIT",
   "private": false,
   "type": "module",

@@ -1,8 +1,8 @@
 {
   "name": "crale-desktop",
   "version": "0.1.0",
-  "description": "Minimal starter kit: Create-React-App + Lerna + Electron starter kit",
-  "author": "Amaury Martiny <amaury.martiny@protonmail.com>",
+  "description": "Starter kit: Create-React-App + Lerna + Electron + ES6 starter kit",
+  "author": "Felix Ganz <felix.ganz.94@gmail.com>",
   "homepage": "./",
   "private": true,
   "scripts": {

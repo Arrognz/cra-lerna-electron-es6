@@ -1,6 +1,8 @@
 {
   "name": "crale-components",
   "version": "1.0.0",
+  "description": "Minimal starter kit: Create-React-App + Lerna + Electron starter kit",
+  "author": "Felix Ganz <felix.ganz.94@gmail.com>",
   "main": "src/index.js",
   "main:src": "src/index.js",
   "scripts": {
